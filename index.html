@@ -1,292 +1,310 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Measum Abbas | Resume</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  <head>
+    <meta charset="utf-8" />
+    <title>Measum Abbas | Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-* {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
-}
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
 
-body {
-	background: #c4c4c4;
-	font-size: 14px;
-	line-height: 20px;
-}
+      body {
+        background: #c4c4c4;
+        font-size: 14px;
+        line-height: 20px;
+      }
 
-.resume_wrapper {
-	display: flex;
-	width: 800px;
-	margin: 50px auto;
-	background: #fff;
-	padding: 10px;
-}
+      .resume_wrapper {
+        display: flex;
+        width: 800px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 10px;
+      }
 
-.resume_wrapper .resume_left {
-	width: 35%;
-	background: #26252d;
-}
+      .resume_wrapper .resume_left {
+        width: 35%;
+        background: #26252d;
+      }
 
-.resume_wrapper .resume_left .resume_image {
-	width: 100%;
-}
+      .resume_wrapper .resume_left .resume_image {
+        width: 100%;
+      }
 
-.resume_wrapper .resume_left .resume_image img {
-	width: 100%;
-	display: block;
-}
+      .resume_wrapper .resume_left .resume_image img {
+        width: 100%;
+        display: block;
+      }
 
-.resume_wrapper .resume_title {
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 16px;
-	margin-bottom: 10px;
-	letter-spacing: 4px;
-}
+      .resume_wrapper .resume_title {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 10px;
+        letter-spacing: 4px;
+      }
 
-.resume_wrapper .resume_left .resume_info {
-	color: #84838b;
-}
+      .resume_wrapper .resume_left .resume_info {
+        color: #84838b;
+      }
 
-.resume_wrapper .resume_left .resume_bottom {
-	padding: 20px 30px;
-}
+      .resume_wrapper .resume_left .resume_bottom {
+        padding: 20px 30px;
+      }
 
-.resume_wrapper .resume_item {
-	padding: 20px 0;
-	border-bottom: 1px solid #0175b2;
-}
+      .resume_wrapper .resume_item {
+        padding: 20px 0;
+        border-bottom: 1px solid #0175b2;
+      }
 
-.resume_wrapper .resume_item:last-child {
-	border-bottom: 0;
-}
+      .resume_wrapper .resume_item:last-child {
+        border-bottom: 0;
+      }
 
-.resume_wrapper .resume_left .resume_namerole {
-	display: none;
-}
+      .resume_wrapper .resume_left .resume_namerole {
+        display: none;
+      }
 
-.resume_wrapper .resume_namerole .name {
-	font-size: 20px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-bottom: 5px;
-	letter-spacing: 4px;
-}
+      .resume_wrapper .resume_namerole .name {
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 5px;
+        letter-spacing: 4px;
+      }
 
-.resume_wrapper .resume_left .resume_namerole .role {
-	color: #84838b;
-}
+      .resume_wrapper .resume_left .resume_namerole .role {
+        color: #84838b;
+      }
 
-.resume_wrapper .resume_left .resume_contact .resume_info:last-child {
-	margin-top: 10px;
-}
+      .resume_wrapper .resume_left .resume_contact .resume_info:last-child {
+        margin-top: 10px;
+      }
 
-.resume_wrapper .resume_left .resume_contact .resume_subtitle {
-	color: #fff;
-	margin-bottom: 2px;
-}
+      .resume_wrapper .resume_left .resume_contact .resume_subtitle {
+        color: #fff;
+        margin-bottom: 2px;
+      }
 
-.resume_wrapper .resume_left .resume_skills .skills_list {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 5px;
-}
+      .resume_wrapper .resume_left .resume_skills .skills_list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
 
-.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
-	position: relative;
-	width: 125px;
-	height: 20px;
-	background: #fff;
-}
+      .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p {
+        position: relative;
+        width: 125px;
+        height: 20px;
+        background: #fff;
+      }
 
-.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: #0175b2;
-	width: 100%;
-	height: 100%;
-}
+      .resume_wrapper
+        .resume_left
+        .resume_skills
+        .skills_list
+        .skills_bar
+        p
+        span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #0175b2;
+        width: 100%;
+        height: 100%;
+      }
 
-.resume_wrapper .resume_right {
-	width: 65%;
-	padding: 20px 40px;
-	color: #26252d;
-}
+      .resume_wrapper .resume_right {
+        width: 65%;
+        padding: 20px 40px;
+        color: #26252d;
+      }
 
-.resume_wrapper .resume_right .resume_namerole .name {
-	color: #26252d;
-	font-size: 32px;
-}
+      .resume_wrapper .resume_right .resume_namerole .name {
+        color: #26252d;
+        font-size: 32px;
+      }
 
-.resume_wrapper .resume_right .resume_namerole .role {
-	font-size: 14px;
-	text-transform: uppercase;
-}
+      .resume_wrapper .resume_right .resume_namerole .role {
+        font-size: 14px;
+        text-transform: uppercase;
+      }
 
-.resume_wrapper .resume_right .resume_item .resume_title {
-	color: #26252d;
-}
+      .resume_wrapper .resume_right .resume_item .resume_title {
+        color: #26252d;
+      }
 
-.resume_wrapper .resume_right .resume_data {
-	display: flex;
-}
+      .resume_wrapper .resume_right .resume_data {
+        display: flex;
+      }
 
-.resume_wrapper .resume_right .resume_data .year {
-	padding-right: 35px;
-	width: 115px;
-	position: relative;
-}
+      .resume_wrapper .resume_right .resume_data .year {
+        padding-right: 35px;
+        width: 115px;
+        position: relative;
+      }
 
-.resume_wrapper .resume_right .resume_data .content {
-	padding-left: 35px;
-	margin-bottom: 20px;
-	width: calc(100% - 115px);
-}
+      .resume_wrapper .resume_right .resume_data .content {
+        padding-left: 35px;
+        margin-bottom: 20px;
+        width: calc(100% - 115px);
+      }
 
-.resume_wrapper .resume_right .resume_data .year:before {
-	content: "";
-	position: absolute;
-	top: 5px;
-	right: 0;
-	width: 10px;
-	height: 10px;
-	background: #fff;
-	border: 1px solid #26252d;
-	border-radius: 50%;
-}
+      .resume_wrapper .resume_right .resume_data .year:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border: 1px solid #26252d;
+        border-radius: 50%;
+      }
 
-.resume_wrapper .resume_right .resume_data .year:after {
-	content: "";
-	position: absolute;
-	top: 17px;
-	right: 4px;
-	width: 3px;
-	height: 90%;
-	background: #0175b2;
-}
+      .resume_wrapper .resume_right .resume_data .year:after {
+        content: "";
+        position: absolute;
+        top: 17px;
+        right: 4px;
+        width: 3px;
+        height: 90%;
+        background: #0175b2;
+      }
 
-.resume_wrapper .resume_right .resume_data:last-child .year:after {
-	display: none;
-}
+      .resume_wrapper .resume_right .resume_data:last-child .year:after {
+        display: none;
+      }
 
-.resume_wrapper .resume_right .resmue_interests .resume_info {
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-}
+      .resume_wrapper .resume_right .resmue_interests .resume_info {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
 
-.resume_wrapper .resume_right .resmue_interests .interests .int_icon {
-	font-size: 38px;
-	color: #0175b2;
-	margin-bottom: 10px;
-}
+      .resume_wrapper .resume_right .resmue_interests .interests .int_icon {
+        font-size: 38px;
+        color: #0175b2;
+        margin-bottom: 10px;
+      }
 
-.websites_info{
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
-}
-.websites_info a{
-	text-decoration: none;
-}
+      .websites_info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .websites_info a {
+        text-decoration: none;
+      }
 
-@media screen and (max-width: 800px) {
-	.resume_wrapper .resume_right .resume_namerole {
-		display: none;
-	}
+      @media screen and (max-width: 800px) {
+        .resume_wrapper .resume_right .resume_namerole {
+          display: none;
+        }
 
-	.resume_wrapper .resume_left .resume_namerole {
-		display: block;
-	}
+        .resume_wrapper .resume_left .resume_namerole {
+          display: block;
+        }
 
-	.resume_wrapper {
-		width: 95%;
-		margin: 10px auto;
-		flex-direction: column;
-	}
+        .resume_wrapper {
+          width: 95%;
+          margin: 10px auto;
+          flex-direction: column;
+        }
 
-	.resume_wrapper .resume_left,
-	.resume_wrapper .resume_right {
-		width: 100%;
-	}
-}
+        .resume_wrapper .resume_left,
+        .resume_wrapper .resume_right {
+          width: 100%;
+        }
+      }
 
-@media screen and (max-width: 424px) {
-	.resume_wrapper .resume_right {
-		padding: 20px 30px;
-	}
+      @media screen and (max-width: 424px) {
+        .resume_wrapper .resume_right {
+          padding: 20px 30px;
+        }
 
-	.resume_wrapper .resume_right .resume_data {
-		flex-direction: column;
-	}
+        .resume_wrapper .resume_right .resume_data {
+          flex-direction: column;
+        }
 
-	.resume_wrapper .resume_right .resume_data .year {
-		padding: 0;
-		margin-bottom: 5px;
-		width: 100%;
-		color: #0175b2;
-	}
+        .resume_wrapper .resume_right .resume_data .year {
+          padding: 0;
+          margin-bottom: 5px;
+          width: 100%;
+          color: #0175b2;
+        }
 
-	.resume_wrapper .resume_right .resume_data .year:before,
-	.resume_wrapper .resume_right .resume_data .year:after {
-		display: none;
-	}
+        .resume_wrapper .resume_right .resume_data .year:before,
+        .resume_wrapper .resume_right .resume_data .year:after {
+          display: none;
+        }
 
-	.resume_wrapper .resume_right .resume_data .content {
-		width: 100%;
-		padding: 0;
-	}
+        .resume_wrapper .resume_right .resume_data .content {
+          width: 100%;
+          padding: 0;
+        }
 
-	.resume_wrapper .resume_right .resmue_interests .interests .int_icon {
-		font-size: 24px;
-	}
-}
-	</style>
-</head>
-<body>
-
-<div class="resume_wrapper">
-	<div class="resume_left">
-		<div class="resume_bottom">
-			<div class="resume_item resume_namerole">
-				<div class="name">Measum Abbas</div>
-				<div class="role">Web Developer</div>
-			</div>
-			<div class="resume_item resume_profile">
-				<div class="resume_title">About Myself</div>
-				<div class="resume_info">As a web developer with expertise in HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, PostgreSQL, Prisma, and Remix.js, I have a diverse set of skills that allow me to create high-quality websites and web applications. Whether it's designing responsive and visually appealing websites using HTML and CSS, developing interactive and dynamic user interfaces using JavaScript and React, or building complex server-side applications using Node.js and Remix.js, I am committed to delivering excellent results that meet the unique needs of each project. With my proficiency in PostgreSQL, Prisma, and MongoDB, I ensure efficient and scalable database management. My focus on MERN stack technologies equips me to handle end-to-end development tasks with expertise.</div>
-			</div>
-			<div class="resume_item resume_address">
-				<div class="resume_title">Address</div>
-				<div class="resume_info">
-					Danyore<br/>
-					Gilgit<br/>
-				</div>
-			</div>
-			<div class="resume_item resume_contact">
-				<div class="resume_title">Contact</div>
-				<div class="resume_info">
-					<div class="resume_subtitle">Phone</div>
-					<div class="resume_subinfo">03479838577</div>
-				</div>
-				<div class="resume_info">
-					<div class="resume_subtitle">Email</div>
-					<div class="resume_subinfo">measumabbas.webdev@gmail.com</div>
-				</div>
-			</div>
-			<!-- <div class="resume_item resume_contact">
+        .resume_wrapper .resume_right .resmue_interests .interests .int_icon {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume_wrapper">
+      <div class="resume_left">
+        <div class="resume_bottom">
+          <div class="resume_item resume_namerole">
+            <div class="name">Measum Abbas</div>
+            <div class="role">Web Developer</div>
+          </div>
+          <div class="resume_item resume_profile">
+            <div class="resume_title">About Myself</div>
+            <div class="resume_info">
+              As a web developer with expertise in HTML, CSS, JavaScript, React,
+              Node.js, Express.js, MongoDB, PostgreSQL, Prisma, and Remix.js, I
+              have a diverse set of skills that allow me to create high-quality
+              websites and web applications. Whether it's designing responsive
+              and visually appealing websites using HTML and CSS, developing
+              interactive and dynamic user interfaces using JavaScript and
+              React, or building complex server-side applications using Node.js
+              and Remix.js, I am committed to delivering excellent results that
+              meet the unique needs of each project. With my proficiency in
+              PostgreSQL, Prisma, and MongoDB, I ensure efficient and scalable
+              database management. My focus on MERN stack technologies equips me
+              to handle end-to-end development tasks with expertise.
+            </div>
+          </div>
+          <div class="resume_item resume_address">
+            <div class="resume_title">Address</div>
+            <div class="resume_info">
+              Danyore<br />
+              Gilgit<br />
+            </div>
+          </div>
+          <div class="resume_item resume_contact">
+            <div class="resume_title">Contact</div>
+            <div class="resume_info">
+              <div class="resume_subtitle">Phone</div>
+              <div class="resume_subinfo">03479838577</div>
+            </div>
+            <div class="resume_info">
+              <div class="resume_subtitle">Email</div>
+              <div class="resume_subinfo">measumabbas.webdev@gmail.com</div>
+            </div>
+          </div>
+          <!-- <div class="resume_item resume_contact">
 				<div class="resume_title">References</div>
 				<div class="resume_info">
 					<div class="resume_subtitle">Mohsin Amir</div>
@@ -297,234 +315,293 @@ body {
 					<div class="resume_subinfo">CTO IdeoMetriX</div>
 				</div>
 			</div> -->
-			<div class="resume_item resume_skills">
-				<div class="resume_title">Skills</div>
-				<div class="resume_info">
-					<div class="skills_list">
-						<div class="skills_left">HTML</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 95%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">CSS</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 90%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">Javascript</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 90%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">Typescript</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 80%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">Node JS</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 85%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">React JS</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 90%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">Express JS JS</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 85%"></span>
-							</p>
-						</div>
-					</div>
-					<div class="skills_list">
-						<div class="skills_left">MongoDB</div>
-						<div class="skills_bar">
-							<p>
-								<span style="width: 70%"></span>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="resume_right">
-		<div class="resume_item resume_namerole">
-			<div class="name">Measum Abbas</div>
-			<div class="role">MERN Stack Web Developer</div>
-		</div>
-		<div class="resume_item resume_education">
-			<div class="resume_title">Education</div>
-			<div class="resume_info">
-				<div class="resume_data">
-					<div class="year">2016 - 2017</div>
-					<div class="content">
-						<p>SSC</p>
-						<p>I have done my matriculation in computer science from education higher secondary school and degree college</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2018 - 2019</div>
-					<div class="content">
-						<p>ICS</p>
-						<p>I have done my ICS from global higher secondary school and degree college danyore</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2019 - 2023</div>
-					<div class="content">
-						<p>BSSE</p>
-						<p>I have done my BS(Software Engineering) from Karakoram International University</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="resume_item resume_experience">
-			<div class="resume_title">Experience</div>
-			<div class="resume_info">
-				<div class="resume_data">
-					<div class="year">2022 - present</div>
-					<div class="content">
-						<p>MERN stack Developer</p>
-						<p>Currently working as a MERN stack developer at IdeoMetriX</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2022 - Present</div>
-					<div class="content">
-						<p>Master trainer web development</p>
-						<p>Working as a master trainer at Step Up Ademia IdeoMetriX</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2022 - 2023</div>
-					<div class="content">
-						<p>Technical Trainer</p>
-						<p>Worked as technical trainer at NFTP(National freelance training program)</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2023 - present</div>
-					<div class="content">
-						<p>Frontend developer at Navace AMS</p>
-						<p>Working as a frontend developer at Navace(Australian based company) as a frontend developer</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2023 - 2024</div>
-					<div class="content">
-						<p>Mentor (MERN stack course)</p>
-						<p>Worked as a mentor in MERN stack course conducted by Generation, Pledges, Gametrain and AKRSP</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2024 - present</div>
-					<div class="content">
-						<p>Frontend developer at Bizops</p>
-						<p>Working as a frontend developer at bizops pro (Uk based product) as a frontend developer</p>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-		<div class="resume_item resume_experience">
-			<div class="resume_title">Trainings</div>
-			<div class="resume_info">
-				<div class="resume_data">
-					<div class="year">2020</div>
-					<div class="content">
-						<p>NFTP Web develment Training</p>
-						<p>I have done a 3 month training from NFTP where I learnt about Web development using HTML, CSS, JS and wordpress</p>
-					</div>
-				</div>
-				<div class="resume_data">
-					<div class="year">2022</div>
-					<div class="content">
-						<p>Web, Graphics and mobile app development (NAVTAC)</p>
-						<p>I have done a 6 months training offered by NAVTAC in IPD KIU, Where i learnt about different technologies used in Websites, android applications and desktop applications</p>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-		<div class="resume_item resume_experience">
-			<div class="resume_title">Certifications</div>
-			<ul>
-				<li style="list-style: disc;">Introduction to Web Development with HTML, CSS, JavaScript (Coursera)</li>
-				<li style="list-style: disc;">Modern JavaScript: ES6 Basics (Coursera)</li>
-				<li style="list-style: disc;">Developing Cloud Apps with Node.js and React (Coursera)</li>
-				<li style="list-style: disc;">Getting Started with Git and GitHub (Coursera)</li>
-				<li style="list-style: disc;">The complete ReactJS course - beginner to advanced (udemy)</li>
-				<li style="list-style: disc;">The complete React Redux Node Express MySql (udemy)</li>
-			</ul>
-		</div>
-		<div class="resume_item resume_experience">
-			<div class="resume_title">Some Websites/products I have worked with</div>
-			<div class="websites_info">
-				<a target="_blank" href="https://navace.com.au/ams/">Navace Asset Management System</a>
-				<a target="_blank" href="https://skysetlogistics.com/">Skyset Logistics - Order tracking System</a>
-				<a target="_blank" href="http://product.bizopspro.com/">Bizops pro</a>
-				<a target="_blank" href="https://digihunar.com/">digihunar.com</a>
-				<a target="_blank"  href="https://ideometrix.com/">ideometrix.com</a>
-				<a target="_blank"  href="https://autoto-app.com/">autoto-app.com</a>
-				<a target="_blank"  href="https://jaguarcryptofamily.com/">jaguarcryptofamily.com</a>
-				<a target="_blank"  href="https://metaverse-project09.netlify.app/">metaverse-project</a>
-				<a target="_blank"  href="https://gbtours.netlify.app.netlify.app/">gbtours</a>
-				<a target="_blank"  href="https://ipdkiu.netlify.app/">ipdkiu</a>
-			</div>
-		</div>
-		
-		<div class="resume_item resmue_interests">
-			<div class="resume_title">Interests</div>
-			<div class="resume_info">
-				<div class="interests">
-					<div class="int_icon">
-						<i class="fas fa-volleyball-ball"></i>
-					</div>
-					<div class="int_data">Volleyball</div>
-				</div>
-				<div class="interests">
-					<div class="int_icon">
-						<i class="fas fa-book-open"></i>
-					</div>
-					<div class="int_data">Reading</div>
-				</div>
-				<div class="interests">
-					<div class="int_icon">
-						<i class="fas fa-film"></i>
-					</div>
-					<div class="int_data">Movies</div>
-				</div>
-				<div class="interests">
-					<div class="int_icon">
-						<i class="fas fa-biking"></i>
-					</div>
-					<div class="int_data">Riding</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+          <div class="resume_item resume_skills">
+            <div class="resume_title">Skills</div>
+            <div class="resume_info">
+              <div class="skills_list">
+                <div class="skills_left">HTML</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 95%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">CSS</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 90%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">Javascript</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 90%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">Typescript</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 80%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">Node JS</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 85%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">React JS</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 90%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">Express JS JS</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 85%"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills_list">
+                <div class="skills_left">MongoDB</div>
+                <div class="skills_bar">
+                  <p>
+                    <span style="width: 70%"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume_right">
+        <div class="resume_item resume_namerole">
+          <div class="name">Measum Abbas</div>
+          <div class="role">MERN Stack Web Developer</div>
+        </div>
+        <div class="resume_item resume_education">
+          <div class="resume_title">Education</div>
+          <div class="resume_info">
+            <div class="resume_data">
+              <div class="year">2016 - 2017</div>
+              <div class="content">
+                <p>SSC</p>
+                <p>
+                  I have done my matriculation in computer science from
+                  education higher secondary school and degree college
+                </p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2018 - 2019</div>
+              <div class="content">
+                <p>ICS</p>
+                <p>
+                  I have done my ICS from global higher secondary school and
+                  degree college danyore
+                </p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2019 - 2023</div>
+              <div class="content">
+                <p>BSSE</p>
+                <p>
+                  I have done my BS(Software Engineering) from Karakoram
+                  International University
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume_item resume_experience">
+          <div class="resume_title">Experience</div>
+          <div class="resume_info">
+            <div class="resume_data">
+              <div class="year">2022 - present</div>
+              <div class="content">
+                <p>MERN stack Developer</p>
+                <p>Currently working as a MERN stack developer at IdeoMetriX</p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2022 - Present</div>
+              <div class="content">
+                <p>Master trainer web development</p>
+                <p>Working as a master trainer at Step Up Ademia IdeoMetriX</p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2022 - 2023</div>
+              <div class="content">
+                <p>Technical Trainer</p>
+                <p>
+                  Worked as technical trainer at NFTP(National freelance
+                  training program)
+                </p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2023 - present</div>
+              <div class="content">
+                <p>Frontend developer at Navace AMS</p>
+                <p>
+                  Working as a frontend developer at Navace(Australian based
+                  company) as a frontend developer
+                </p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2023 - 2024</div>
+              <div class="content">
+                <p>Mentor (MERN stack course)</p>
+                <p>
+                  Worked as a mentor in MERN stack course conducted by
+                  Generation, Pledges, Gametrain and AKRSP
+                </p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2024 - present</div>
+              <div class="content">
+                <p>Frontend developer at Bizops</p>
+                <p>
+                  Working as a frontend developer at bizops pro (Uk based
+                  product) as a frontend developer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume_item resume_experience">
+          <div class="resume_title">Trainings</div>
+          <div class="resume_info">
+            <div class="resume_data">
+              <div class="year">2020</div>
+              <div class="content">
+                <p>NFTP Web develment Training</p>
+                <p>
+                  I have done a 3 month training from NFTP where I learnt about
+                  Web development using HTML, CSS, JS and wordpress
+                </p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2022</div>
+              <div class="content">
+                <p>Web, Graphics and mobile app development (NAVTAC)</p>
+                <p>
+                  I have done a 6 months training offered by NAVTAC in IPD KIU,
+                  Where i learnt about different technologies used in Websites,
+                  android applications and desktop applications
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume_item resume_experience">
+          <div class="resume_title">Certifications</div>
+          <ul>
+            <li style="list-style: disc">
+              Introduction to Web Development with HTML, CSS, JavaScript
+              (Coursera)
+            </li>
+            <li style="list-style: disc">
+              Modern JavaScript: ES6 Basics (Coursera)
+            </li>
+            <li style="list-style: disc">
+              Developing Cloud Apps with Node.js and React (Coursera)
+            </li>
+            <li style="list-style: disc">
+              Getting Started with Git and GitHub (Coursera)
+            </li>
+            <li style="list-style: disc">
+              The complete ReactJS course - beginner to advanced (udemy)
+            </li>
+            <li style="list-style: disc">
+              The complete React Redux Node Express MySql (udemy)
+            </li>
+          </ul>
+        </div>
+        <div class="resume_item resume_experience">
+          <div class="resume_title">
+            Some Websites/products I have worked with
+          </div>
+          <div class="websites_info">
+            <a target="_blank" href="https://navace.com.au/ams/"
+              >Hotela App (Hotel Management System)</a
+            >
+            <a target="_blank" href="https://hotelaapp.com/"
+              >Navace Asset Management System</a
+            >
+            <a target="_blank" href="https://skysetlogistics.com/"
+              >Skyset Logistics - Order tracking System</a
+            >
+            <a target="_blank" href="http://product.bizopspro.com/"
+              >Bizops pro</a
+            >
+            <a target="_blank" href="https://fsso.stc.com/"
+              >STC (Saudi Telecom Company) SSO Portal Revamp | Completed But not
+              in production yet</a
+            >
+            <a target="_blank" href="https://digihunar.com/">digihunar.com</a>
+            <a target="_blank" href="https://ideometrix.com/">ideometrix.com</a>
+            <a target="_blank" href="https://autoto-app.com/">autoto-app.com</a>
+            <a target="_blank" href="https://jaguarcryptofamily.com/"
+              >jaguarcryptofamily.com</a
+            >
+            <a target="_blank" href="https://metaverse-project09.netlify.app/"
+              >metaverse-project</a
+            >
+            <a target="_blank" href="https://gbtours.netlify.app.netlify.app/"
+              >gbtours</a
+            >
+            <a target="_blank" href="https://ipdkiu.netlify.app/">ipdkiu</a>
+          </div>
+        </div>
 
-</body>
+        <div class="resume_item resmue_interests">
+          <div class="resume_title">Interests</div>
+          <div class="resume_info">
+            <div class="interests">
+              <div class="int_icon">
+                <i class="fas fa-volleyball-ball"></i>
+              </div>
+              <div class="int_data">Volleyball</div>
+            </div>
+            <div class="interests">
+              <div class="int_icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <div class="int_data">Reading</div>
+            </div>
+            <div class="interests">
+              <div class="int_icon">
+                <i class="fas fa-film"></i>
+              </div>
+              <div class="int_data">Movies</div>
+            </div>
+            <div class="interests">
+              <div class="int_icon">
+                <i class="fas fa-biking"></i>
+              </div>
+              <div class="int_data">Riding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
